@@ -26,6 +26,70 @@
 
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#000112">
+  <meta property="og:locale" content="en_US">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Phil",
+    "url": "https://fhlcreative.com",
+    "image": "https://fhlcreative.com/images/profile-photo.png",
+    "jobTitle": "Digital Product Builder",
+    "description": "Phil builds digital products he actually wants to use. Follower of Christ, husband, and father of 3 based in Athens, GA.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Athens",
+      "addressRegion": "GA",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://dribbble.com/fhlcreative",
+      "https://gumroad.com/fhl",
+      "https://unsplash.com/@fhlcreative",
+      "https://creativemarket.com/fhlcreative",
+      "https://thenounproject.com/creator/Fhlcreative/",
+      "https://medium.com/@fhlcreative",
+      "https://x.com/fhlcreative"
+    ],
+    "knowsAbout": ["Digital Product Design", "Web Development", "UI/UX Design", "Photography", "Icon Design"],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "Townsite",
+          "url": "https://townsite.co/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "Headshot Studio",
+          "url": "https://headshotstudio.me/"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "ImgScraper",
+          "url": "https://imgscraper.com/"
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FHL Creative",
+    "alternateName": "Faith, Hope & Love Creative",
+    "url": "https://fhlcreative.com"
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,8 +101,8 @@
   <div class="page-wrapper">
 
     <!-- HEADER -->
-    <header class="header">
-      <div class="header-left">
+    <header class="header" role="banner">
+      <nav class="header-left" aria-label="Main navigation">
         <div class="logo-container">
           <img class="logo-f" alt="F" src="images/vector-1.svg">
           <img class="logo-h" alt="H" src="images/vector.svg">
@@ -46,7 +110,7 @@
           <img class="logo-l" alt="L" src="images/vector-3.svg">
         </div>
         <div class="tagline">Faith, Hope &amp; Love Creative</div>
-      </div>
+      </nav>
       <div class="header-right">
         <a href="https://medium.com/@fhlcreative" target="_blank" rel="noopener noreferrer" class="social-link">
           <img alt="Medium" src="images/frame-8.svg">
@@ -182,6 +246,7 @@
     </div>
 
     <!-- FOOTER CTA -->
+    <footer role="contentinfo">
     <a href="https://calendly.com/fhlcreative/30min" target="_blank" rel="noopener noreferrer" class="footer-cta">
       <img src="images/icon-letstalk.svg" alt="Email" class="footer-cta-mobile-icon">
       <div class="footer-cta-icon">
@@ -190,6 +255,7 @@
       <div class="footer-cta-text">Let's Talk</div>
       <img src="images/arrow-right-white.svg" alt="Arrow" class="footer-cta-arrow">
     </a>
+    </footer>
 
   </div>
 
